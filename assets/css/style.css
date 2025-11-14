@@ -1,0 +1,167 @@
+
+/* Conteúdo principal */
+.content {
+    position: relative; /* Permite que o z-index funcione */
+    z-index: 1; /* Coloca o conteúdo acima da imagem de fundo */
+}
+
+/* Cartões */
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente dos cartões */
+    transition: transform 0.2s; /* Transição suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o cartão ao passar o mouse */
+}
+
+/* Style do body, dá fix a um bug de imagens */
+body {
+    background-image: url('/PWProject/imgs/back.jpg'); /* Caminho absoluto */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333; /* Cor do texto */
+}
+
+/* Style das imagens no 'Género' e 'Produtor' */
+.img-rock {
+    background-image: url('/PWProject/imgs/rock.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-jazz {
+    background-image: url('/PWProject/imgs/jazz.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-pop {
+    background-image: url('/PWProject/imgs/pop.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-trap {
+    background-image: url('/PWProject/imgs/trap.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-ok {
+    background-image: url('/PWProject/imgs/wegonbeok.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-pierre {
+    background-image: url('/PWProject/imgs/pierre.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-2hollis {
+    background-image: url('/PWProject/imgs/2hollis.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-richie {
+    background-image: url('/PWProject/imgs/richie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-osama {
+    background-image: url('/PWProject/imgs/osama.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-meh {
+    background-image: url('/PWProject/imgs/meh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-mallwhore {
+    background-image: url('/PWProject/imgs/mallwhore.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-fckswag {
+    background-image: url('/PWProject/imgs/fckswag.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-joydivision {
+    background-image: url('/PWProject/imgs/joydivision.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-eternal {
+    background-image: url('/PWProject/imgs/eternal.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-yunglean {
+    background-image: url('/PWProject/imgs/yunglean.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-bladee {
+    background-image: url('/PWProject/imgs/bladee.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-ss {
+    background-image: url('/PWProject/imgs/ss.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-wisp {
+    background-image: url('/PWProject/imgs/wisp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-deftones {
+    background-image: url('/PWProject/imgs/deftones.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-lazerdim {
+    background-image: url('/PWProject/imgs/lazerdim.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
